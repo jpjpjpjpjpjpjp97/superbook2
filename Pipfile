@@ -1,12 +1,9 @@
 [[source]]
-
 url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
 
-
 [packages]
-
 django = "==2.0"
 django-crispy-forms = "==1.7.2"
 django-authtools = "==1.6.0"
@@ -20,10 +17,10 @@ whitenoise = "==3.3.1"
 "psycopg2-binary" = "*"
 coreapi = "*"
 django-heroku = "*"
-
+markupsafe = "*"
+psycopg2 = "*"
 
 [dev-packages]
-
 django-debug-toolbar = "==1.8"
 django-extensions = "*"
 pytest = "*"

@@ -8,7 +8,7 @@ class Origin(models.Model):
     origin = models.CharField(max_length=100)
 
     def __str__(self):
-        return "{}'s orgin: {}".format(self.superhero, self.origin)
+        return "{}'s origin: {}".format(self.superhero, self.origin)
 
 
 class Location(models.Model):
@@ -18,7 +18,7 @@ class Location(models.Model):
 
     def __str__(self):
         return "{}: ({}, {})".format(self.country,
-                                     self.latitude, self.longitude)
+                                    self.latitude, self.longitude)
 
     class Meta:
         unique_together = ("latitude", "longitude")
